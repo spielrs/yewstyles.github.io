@@ -1,0 +1,21 @@
+{
+  "name": "yew_style_page",
+  "collaborators": [
+    "Francisco Jesus Navarro Cortes"
+  ],
+  "description": "My awesome Yew with Yew-Router and Parcel application!",
+  "version": "0.8.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spielrs/yew-styles-page.git"
+  },
+  "files": [
+    "yew_style_page_bg.wasm",
+    "yew_style_page.js",
+    "yew_style_page.d.ts"
+  ],
+  "module": "yew_style_page.js",
+  "types": "yew_style_page.d.ts",
+  "sideEffects": false
+}
