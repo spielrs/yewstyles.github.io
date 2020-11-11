@@ -80,7 +80,6 @@ export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly run: () => void;
   readonly __wbgt_should_create_dropdown_container_5: (a: number) => void;
-  readonly __wbgt_should_create_navbar_dropdown_container_22: (a: number) => void;
   readonly __wbgt_should_create_a_container_17: (a: number) => void;
   readonly __wbgt_should_create_form_input_12: (a: number) => void;
   readonly __wbgt_should_create_item_18: (a: number) => void;
@@ -95,14 +94,14 @@ export interface InitOutput {
   readonly __wbgt_should_create_form_component_7: (a: number) => void;
   readonly __wbgt_should_submit_the_form_8: (a: number) => void;
   readonly __wbgt_should_create_form_select_14: (a: number) => void;
-  readonly __wbgt_should_create_dropdown_item_6: (a: number) => void;
+  readonly __wbgt_should_create_navbar_dropdown_container_22: (a: number) => void;
   readonly __wbgt_should_create_form_input_9: (a: number) => void;
   readonly __wbgt_should_create_dropdown_item_23: (a: number) => void;
   readonly __wbgt_should_set_style_prop_32: (a: number) => void;
   readonly __wbgt_should_generate_random_string_33: (a: number) => void;
+  readonly __wbgt_should_create_dropdown_item_6: (a: number) => void;
   readonly __wbgt_should_create_form_group_horizontal_oriented_10: (a: number) => void;
   readonly __wbgt_should_create_form_group_vertical_oriented_11: (a: number) => void;
-  readonly __wbgt_should_create_form_label_13: (a: number) => void;
   readonly __wbgt_should_create_modal_component_20: (a: number) => void;
   readonly __wbgt_should_hide_modal_component_from_doom_21: (a: number) => void;
   readonly __wbgt_should_create_plain_text_27: (a: number) => void;
@@ -110,6 +109,7 @@ export interface InitOutput {
   readonly __wbgt_should_create_alert_text_29: (a: number) => void;
   readonly __wbgt_should_create_tag_text_30: (a: number) => void;
   readonly __wbgt_should_add_delete_icon_tag_text_31: (a: number) => void;
+  readonly __wbgt_should_create_form_label_13: (a: number) => void;
   readonly __wbgt_should_create_navbar_item_24: (a: number) => void;
   readonly __wbgt_should_create_clickable_navbar_item_25: (a: number) => void;
   readonly __wbgt_should_create_spinner_26: (a: number) => void;
