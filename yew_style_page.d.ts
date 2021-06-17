@@ -79,44 +79,44 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly run: () => void;
+  readonly __wbgt_should_trigger_action_when_button_clicked_0: (a: number) => void;
+  readonly __wbgt_should_create_button_component_1: (a: number) => void;
+  readonly __wbgt_should_create_navbar_dropdown_container_26: (a: number) => void;
+  readonly __wbgt_should_create_carousel_dot_component_7: (a: number) => void;
+  readonly __wbgt_should_create_form_textarea_20: (a: number) => void;
+  readonly __wbgt_should_create_dropdown_item_27: (a: number) => void;
+  readonly __wbgt_should_create_spinner_30: (a: number) => void;
+  readonly __wbgt_should_create_carousel_controls_component_6: (a: number) => void;
+  readonly __wbgt_should_create_form_component_11: (a: number) => void;
+  readonly __wbgt_should_submit_the_form_12: (a: number) => void;
+  readonly __wbgt_should_create_form_select_18: (a: number) => void;
+  readonly __wbgt_should_create_dropdown_item_10: (a: number) => void;
+  readonly __wbgt_should_create_form_input_13: (a: number) => void;
+  readonly __wbgt_should_create_form_submit_19: (a: number) => void;
+  readonly __wbgt_should_create_navbar_item_28: (a: number) => void;
+  readonly __wbgt_should_create_clickable_navbar_item_29: (a: number) => void;
   readonly __wbgt_should_create_plain_text_31: (a: number) => void;
   readonly __wbgt_should_create_paragraph_text_32: (a: number) => void;
   readonly __wbgt_should_create_alert_text_33: (a: number) => void;
   readonly __wbgt_should_create_tag_text_34: (a: number) => void;
   readonly __wbgt_should_add_delete_icon_tag_text_35: (a: number) => void;
+  readonly __wbgt_should_create_carousel_container_component_5: (a: number) => void;
+  readonly __wbgt_should_create_form_group_horizontal_oriented_14: (a: number) => void;
+  readonly __wbgt_should_create_form_group_vertical_oriented_15: (a: number) => void;
+  readonly __wbgt_should_create_form_label_17: (a: number) => void;
+  readonly __wbgt_should_create_a_container_21: (a: number) => void;
   readonly __wbgt_should_create_modal_component_24: (a: number) => void;
   readonly __wbgt_should_hide_modal_component_from_doom_25: (a: number) => void;
   readonly __wbgt_should_create_carousel_dot_component_8: (a: number) => void;
-  readonly __wbgt_should_create_navbar_item_28: (a: number) => void;
-  readonly __wbgt_should_create_clickable_navbar_item_29: (a: number) => void;
-  readonly __wbgt_should_create_spinner_30: (a: number) => void;
-  readonly __wbgt_should_create_dropdown_container_9: (a: number) => void;
-  readonly __wbgt_should_create_a_container_21: (a: number) => void;
+  readonly __wbgt_should_create_item_22: (a: number) => void;
+  readonly __wbgt_should_create_clickable_item_23: (a: number) => void;
   readonly __wbgt_should_create_card_with_three_parts_2: (a: number) => void;
   readonly __wbgt_should_create_card_with_single_content_3: (a: number) => void;
   readonly __wbgt_should_ignore_parts_when_single_content_exist_4: (a: number) => void;
+  readonly __wbgt_should_create_dropdown_container_9: (a: number) => void;
   readonly __wbgt_should_create_form_input_16: (a: number) => void;
-  readonly __wbgt_should_create_item_22: (a: number) => void;
-  readonly __wbgt_should_create_clickable_item_23: (a: number) => void;
-  readonly __wbgt_should_trigger_action_when_button_clicked_0: (a: number) => void;
-  readonly __wbgt_should_create_button_component_1: (a: number) => void;
-  readonly __wbgt_should_create_form_textarea_20: (a: number) => void;
-  readonly __wbgt_should_create_form_select_18: (a: number) => void;
-  readonly __wbgt_should_create_form_submit_19: (a: number) => void;
-  readonly __wbgt_should_create_navbar_dropdown_container_26: (a: number) => void;
   readonly __wbgt_should_set_style_prop_36: (a: number) => void;
   readonly __wbgt_should_generate_random_string_37: (a: number) => void;
-  readonly __wbgt_should_create_form_component_11: (a: number) => void;
-  readonly __wbgt_should_submit_the_form_12: (a: number) => void;
-  readonly __wbgt_should_create_form_input_13: (a: number) => void;
-  readonly __wbgt_should_create_dropdown_item_27: (a: number) => void;
-  readonly __wbgt_should_create_carousel_dot_component_7: (a: number) => void;
-  readonly __wbgt_should_create_form_group_horizontal_oriented_14: (a: number) => void;
-  readonly __wbgt_should_create_form_group_vertical_oriented_15: (a: number) => void;
-  readonly __wbgt_should_create_carousel_container_component_5: (a: number) => void;
-  readonly __wbgt_should_create_carousel_controls_component_6: (a: number) => void;
-  readonly __wbgt_should_create_dropdown_item_10: (a: number) => void;
-  readonly __wbgt_should_create_form_label_17: (a: number) => void;
   readonly __wbg_wasmbindgentestcontext_free: (a: number) => void;
   readonly wasmbindgentestcontext_new: () => number;
   readonly wasmbindgentestcontext_args: (a: number, b: number, c: number) => void;
@@ -129,13 +129,13 @@ export interface InitOutput {
   readonly __wbindgen_malloc: (a: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number) => number;
   readonly __wbindgen_export_2: WebAssembly.Table;
-  readonly _dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hec41387742bb2963: (a: number, b: number, c: number) => void;
-  readonly _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h38aaa457093022a5: (a: number, b: number, c: number) => void;
-  readonly wasm_bindgen__convert__closures__invoke0_mut__h98eb8733e01f9206: (a: number, b: number) => void;
+  readonly _dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h6feffb815b692c56: (a: number, b: number, c: number) => void;
+  readonly _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h4c4e4c011952ff14: (a: number, b: number, c: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke0_mut__h99ca8988f34f56d5: (a: number, b: number) => void;
   readonly __wbindgen_exn_store: (a: number) => void;
   readonly __wbindgen_free: (a: number, b: number) => void;
-  readonly wasm_bindgen__convert__closures__invoke3_mut__h0944e3d05e353e2b: (a: number, b: number, c: number, d: number, e: number) => void;
-  readonly wasm_bindgen__convert__closures__invoke2_mut__h9f8965e432fe8626: (a: number, b: number, c: number, d: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke3_mut__h0949f0e1281d9e4c: (a: number, b: number, c: number, d: number, e: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke2_mut__hdbe9c310889773b0: (a: number, b: number, c: number, d: number) => void;
 }
 
 /**
@@ -147,4 +147,3 @@ export interface InitOutput {
 * @returns {Promise<InitOutput>}
 */
 export default function init (module_or_path?: InitInput | Promise<InitInput>): Promise<InitOutput>;
-        
